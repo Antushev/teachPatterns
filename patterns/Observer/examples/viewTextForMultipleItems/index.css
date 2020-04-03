@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.validation__inner {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.field {
+    padding: 10px 10px;
+}
+
+.field:nth-child(1n + 2) {
+    margin-top: 15px;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.result-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.result-list__item {
+    font-size: 15px;
+}
+
+.result-list__item:nth-child(1n + 2) {
+    margin-top: 5px;
+}

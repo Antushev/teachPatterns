@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <main class="validation container">
+        <div class="validation__inner">
+            <h1>Кто я?</h1>
+            <div class="form-block">
+                <form class="form" class="" method="post" action="#">
+                    <label for="first-name"></label>
+                    <input class="field form__input" id="first-name" type="text" name="first_name" placeholder="Пётр">
+                    <label for="last-name"></label>
+                    <input class="field form__input" id="last-name" type="text" name="last_name" placeholder="Петров">
+                    <textarea class="field form__textarea" name="about" placeholder="Занимаюсь вязанием"></textarea>
+                </form>
+            </div>
+            <div class="result">
+                <ul class="result-list">
+                    <li class="result-list__item result-list__item--count-word">Уже написано слов: </li>
+                    <li class="result-list__item result-list__item--count-letter">Уже написано букв: </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
